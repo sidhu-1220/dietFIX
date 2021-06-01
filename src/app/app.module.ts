@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DietfixHomeComponent } from './dietfix-home/dietfix-home.component';
 import { DietfixRecipesComponent } from './dietfix-recipes/dietfix-recipes.component';
 import { DietfixContactusComponent } from './dietfix-contactus/dietfix-contactus.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { DietfixContactusComponent } from './dietfix-contactus/dietfix-contactus
     DietfixHomeComponent,
     DietfixRecipesComponent,
     DietfixContactusComponent,
+    FooterComponent,
    
   ],
   imports: [
